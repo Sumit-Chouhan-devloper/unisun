@@ -1,16 +1,19 @@
-import React from 'react'
+import React from "react";
 import Header from "../components/common/Header";
 import Footer from "../components/common/Footer";
 import HeroCommon from "../components/common/HeroCommon";
-import Subscription from '../components/common/Subscription';
+import Subscription from "../components/common/Subscription";
 
 const Privacy = () => {
   return (
     <div>
-         <div>
-          <Header btnText="Shop" removeBtn="d-none" />
-        <HeroCommon heading="privacy" herocommonbg="WindowTint-bg-img" />
-        <Subscription/>
+      <div>
+        <Header btnText="Shop" removeBtn="d-none" />
+        <HeroCommon
+          heading="Privacy Policy"
+          herocommonbg="PrivacyHero-bg-img"
+        />
+        <Subscription />
         <Footer
           tab1="Company"
           tab2="Faqs"
@@ -23,9 +26,9 @@ const Privacy = () => {
           commercialpage1="Product Specifications"
           commercialpage2="Product Care"
         />
+      </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Privacy
+export default Privacy;
