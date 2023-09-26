@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.aboutus_bg{
+  background-image: url(./assets/images/png/portal-check-car-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
