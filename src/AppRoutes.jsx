@@ -16,10 +16,12 @@ import ProductSpecification from './views/ProductSpecification';
 import ProductWarranties from './views/ProductWarranties';
 import Privacy from './views/Privacy';
 import TermsCondition from './views/TermsCondition';
+import BackToTop from './components/common/BackToTop';
 
 const AppRoutes = () => {
     return (
         <div>
+            <BackToTop/>
             <Router>
                 <Routes>
                     <Route path='/' element={<Home />} />
