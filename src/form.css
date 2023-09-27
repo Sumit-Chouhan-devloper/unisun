@@ -60,6 +60,10 @@
   .contact_form input {
     padding: 13px 16px;
   }
+  .related_blog_img {
+    height: 95px !important;
+    width: 95px !important;
+  }
   .contact_form {
     padding: 34px;
   }
@@ -73,12 +77,14 @@
     padding: 12px 35px;
   }
 }
-
+.related_blog_img {
+  height: 70px;
+  width: 70px;
+}
 /* bloge window */
 .bottom_para_bg {
   background: #e4e5ff;
 }
-.blog_bottom_border{
+.blog_bottom_border {
   border-bottom: 1.5px solid #cccccc;
 }
-
