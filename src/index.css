@@ -19,15 +19,14 @@ code {
   background-size: cover;
   background-position: center;
 }
-.feature_detail:hover svg.checkbox_svg path:nth-child(1) {
+.feature_detail:hover svg path:nth-child(1) {
   opacity: 1;
 }
 
-.feature_detail:hover svg.checkbox_svg path:nth-child(1) {
+.feature_detail:hover svg path:nth-child(1) {
   fill: #ec0927 !important;
 }
 
-.feature_detail:hover svg.checkbox_svg path:nth-child(2) {
+.feature_detail:hover svg path:nth-child(2) {
   fill: white !important;
-  opacity: 0.5 !important;
 }
