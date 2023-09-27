@@ -15,7 +15,7 @@ body {
   text-decoration: none !important;
   color: var(--black) !important;
   background-color: var(--white) !important;
-  font-family: "gilroy-regular", sans-serif;
+  font-family: "gilroy-regular", sans-serif !important;
 }
 
 .overflow_x_hidden {
@@ -1460,7 +1460,6 @@ input,
 }
 
 /* common -cards */
-
 
 .common_cards_classes {
   border: 1px solid #d9d9d9;
