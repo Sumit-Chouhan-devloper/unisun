@@ -138,32 +138,32 @@ export const LatestProductsData = [
   {
     img: Automobile,
     para: "Automobile Window Tint",
-    redirect:"/about"
+    redirect: "/about",
   },
   {
     img: PaintProtection,
     para: "Paint Protection Film ",
-    redirect:"/about"
+    redirect: "/about",
   },
   {
     img: Architectural,
     para: " Architectural Window Film",
-    redirect:"/about"
+    redirect: "/about",
   },
   {
     img: Antimicrobial,
     para: "Antimicrobial Film",
-    redirect:"/about"
+    redirect: "/about",
   },
   {
     img: Safety,
     para: "Safety & Security Film",
-    redirect:"/SecurityFilm"
+    redirect: "/SecurityFilm",
   },
   {
     img: Customized,
     para: "Customized Solutions",
-    redirect:"/CustomizedSolutions"
+    redirect: "/CustomizedSolutions",
   },
 ];
 export const BlogsCardData = [
@@ -1131,5 +1131,66 @@ export const AutomotiveCardsData = [
     heading: "Premium Dyed Series",
     para: "Lorem ipsum dolor sit amet consectetur. Tincidunt molestie id viverra neque turpis aliquet morbi id tortor. Nunc id scelerisque volutpat consectetur felis risus quis ultrices.",
     btn: "More details",
+  },
+];
+
+export const AutomotiveWindowTintLeft = [
+  {
+    svgIcon: <HeatIcon />,
+    heading: "Heat Rejection",
+    Para: "By blocking up to 98% of infrared solar heat from entering the car, it could make the car cooling down quicker inside, which significantly reduces energy consumption of AC of the car.",
+  },
+  {
+    svgIcon: <PrivacyIcon />,
+    heading: "More Privacy",
+    Para: "Added privacy that helps to conceal things inside the car",
+  },
+  {
+    svgIcon: <AntifglareIcon />,
+    heading: "Anti-Glare",
+    Para: "It could help reduce harsh glare from the sun shines, which can lead to drowsy and eyestrain.",
+  },
+];
+
+export const AutomotiveWindowTintRight = [
+  {
+    svgIcon: <UvProtectIcon />,
+    heading: "UV protection",
+    Para: "Blocks more than 99% of harmful UV rays, protect skin, protect furniture and carpets.",
+  },
+  {
+    svgIcon: <EyesIcon />,
+    heading: "Ultra-clarity",
+    Para: "With extremely low haze especially for the window shield, it helps providing ultra-clear view no matter at daytime or at night",
+  },
+  {
+    svgIcon: <GpsIcon />,
+    heading: "Not blocking cell phone or GPS signals",
+    Para: "The tint does not blocking any radio, cellular, gps or bluetooth signals.",
+  },
+];
+
+export const PremiumDyedWindowTintLeft = [
+  {
+    svgIcon: <UvProtectIcon />,
+    heading: "UV protection",
+    Para: "It blocks 99% of the UV rays, which protect your skin and eyes, and protect the interior such as seats and dashboard from sun fading and deterioration.",
+  },
+  {
+    svgIcon: <AntifglareIcon />,
+    heading: "Anti-Glare",
+    Para: "It could help reduce harsh glare from the sun shines, which can lead to drowsy and eyestrain",
+  },
+];
+export const PremiumDyedWindowTintRight = [
+  {
+    svgIcon: <PrivacyIcon />,
+    heading: "More Privacy",
+    Para: "Added privacy that helps to conceal things inside the car.",
+  },
+  {
+    svgIcon: <GpsIcon />,
+    heading: "Not blocking cell phone or GPS signals",
+    Para: "It does not blocking any radio, cellular,gps or bluetooth signals.",
   },
 ];

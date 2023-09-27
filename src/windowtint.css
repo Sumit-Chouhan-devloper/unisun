@@ -1,0 +1,6 @@
+.Window-bg-img {
+    background-image: url("../src/assets/images/webp/green-lamborghini.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
