@@ -1,0 +1,75 @@
+/* contact us */
+.forms_icon {
+  height: 60px;
+  min-width: 60px;
+  background: #ffeff1;
+  backdrop-filter: blur(38px);
+}
+.contact_form {
+  padding: 16px;
+} 
+.contact_form input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: var(--white);
+  color: var(--black);
+  backdrop-filter: blur(38px);
+  padding: 6px 10px;
+}
+.contact_form input .form_dropwown {
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  background: var(--white, #fff) !important;
+  backdrop-filter: blur(38px) !important;
+  padding: 13px 16px;
+}
+.contact_form .form-select:focus {
+  box-shadow: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.contact_form textarea {
+  height: 116px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none !important;
+  resize: none;
+}
+
+.dealer_btn {
+  padding: 8px 15px;
+  border: 1px solid transparent;
+  border-radius: 44px;
+}
+.dealer_btn:hover {
+  color: rgba(0, 0, 0, 0.3) !important;
+  border-radius: 44px;
+  border: 0.863px solid rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+}
+.consumer_btn {
+  padding: 8px 15px;
+  color: rgba(0, 0, 0, 0.3);
+  border-radius: 44px;
+  border: 0.863px solid rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+}
+.consumer_btn:hover {
+  border: 1px solid transparent;
+  color: var(--white);
+  border-radius: 44px;
+  background-color: var(--blue);
+}
+@media (min-width: 576px) {
+  .contact_form input {
+    padding: 13px 16px;
+  }
+  .contact_form {
+    padding: 34px;
+  } 
+  .contact_form .form-select {
+    padding: 13px 16px 13px 16px !important;
+  }
+  .dealer_btn {
+    padding: 12px 35px;
+  }
+  .consumer_btn {
+    padding: 12px 35px;
+  }
+}

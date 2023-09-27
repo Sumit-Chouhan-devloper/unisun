@@ -37,9 +37,7 @@ const AppRoutes = () => {
                     <Route path="/ProductSpecification" element={<ProductSpecification />} />
                     <Route path="/ProductWarranties" element={<ProductWarranties />} />
                     <Route path="/Privacy" element={<Privacy />} />
-                    <Route path="/TermsCondition" element={<TermsCondition />} />
-
-                    
+                    <Route path="/TermsCondition" element={<TermsCondition />} />  
                 </Routes>
             </Router>
         </div>

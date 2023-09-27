@@ -3,12 +3,14 @@ import Header from '../components/common/Header'
 import Subscription from '../components/common/Subscription'
 import Footer from '../components/common/Footer'
 import HeroCommon from '../components/common/HeroCommon'
+import ContactForm from './ContactForm'
 
 const ContactPage = () => {
   return (
     <div>
            <Header btnText="Shop" />
          <HeroCommon heading="contact" herocommonbg="aboutus_bg" />
+         <ContactForm/>
         <Subscription/>
         <Footer
         tab1="Company"
