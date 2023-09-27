@@ -3,11 +3,13 @@ import Header from "../components/common/Header";
 import Subscription from "../components/common/Subscription";
 import Footer from "../components/common/Footer";
 import HeroSlider from "../components/home-page/HeroSlider";
+import LatestBlogSlider from "../components/home-page/LatestBlogSlider";
 
 const Home = () => {
   return (
     <div>
       <HeroSlider />
+      <LatestBlogSlider heading="Featured" />
       <Subscription />
       <Footer
         tab1="Company"
