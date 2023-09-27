@@ -7,7 +7,7 @@
 }
 .contact_form {
   padding: 16px;
-} 
+}
 .contact_form input {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: var(--white);
@@ -62,7 +62,7 @@
   }
   .contact_form {
     padding: 34px;
-  } 
+  }
   .contact_form .form-select {
     padding: 13px 16px 13px 16px !important;
   }
@@ -73,3 +73,12 @@
     padding: 12px 35px;
   }
 }
+
+/* bloge window */
+.bottom_para_bg {
+  background: #e4e5ff;
+}
+.blog_bottom_border{
+  border-bottom: 1.5px solid #cccccc;
+}
+
