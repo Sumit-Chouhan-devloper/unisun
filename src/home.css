@@ -21,11 +21,108 @@
 .hero_prev_slide:hover svg path {
   fill: var(--black);
 }
+.blogs_card {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  border-radius: 10px !important;
+}
+.blogs_card:hover {
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(80, 76, 76, 0.052) !important;
+  box-shadow: 0px 0px 10px 3px rgba(80, 76, 76, 0.052) !important;
+  border: 1px solid transparent;
+}
+.blogs_slider .slick-track {
+  display: flex !important;
+}
+.blogs_slider .slick-slide {
+  height: inherit !important;
+  display: flex !important;
+}
+.blogs_slider .slick-slide > div {
+  display: flex;
+}
+
+.blog_slider_left_arrow {
+  top: 50%;
+  left: -5%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.blog_slider_right_arrow {
+  top: 50%;
+  right: -5%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.blogs_arrow_hover:hover svg path {
+  fill: #ec0927 !important;
+  -webkit-transition: all 300ms linear !important;
+  -o-transition: all 300ms linear !important;
+  transition: all 300ms linear !important;
+}
+
+.blogs_arrow_hover:hover svg circle {
+  fill: white !important;
+  -webkit-transition: all 300ms linear !important;
+  -o-transition: all 300ms linear !important;
+  transition: all 300ms linear !important;
+}
+
+.blogs_arrows_border {
+  border: 2px solid #ec0927 !important;
+  border-radius: 50%;
+  -webkit-transition: all 300ms linear !important;
+  -o-transition: all 300ms linear !important;
+  transition: all 300ms linear !important;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.95 !important;
+  color: transparent !important;
+  background-color: red !important;
+}
+
+.slick-dots li button:before {
+  opacity: 0.25 !important;
+  color: transparent !important;
+  width: 21px !important;
+  height: 6px !important;
+  border-radius: 36px !important;
+  background: black !important;
+  top: 20px !important;
+}
+.blogs_card:hover .slider_main_img_scale {
+  scale: 1.1;
+}
+
+.common_cards_classes:hover .slider_main_img_scale {
+  scale: 1.1;
+}
 @media (min-width: 768.98) {
   .hero_prev_slide {
     left: 70px;
   }
   .hero_prev_slide:nth-last-child(2) {
     right: 70px;
+  }
+}
+@media (min-width: 1200px) {
+  .blog_slider_right_arrow {
+    right: -3%;
+  }
+  .blog_slider_left_arrow {
+    left: -3%;
+  }
+}
+@media (min-width: 1330px) {
+  .blog_slider_right_arrow {
+    right: -8%;
+  }
+  .blog_slider_left_arrow {
+    left: -8%;
   }
 }
