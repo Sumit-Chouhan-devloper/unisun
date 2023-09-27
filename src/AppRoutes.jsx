@@ -24,7 +24,7 @@ const AppRoutes = () => {
             <BackToTop/>
             <Router>
                 <Routes>
-                    <Route path='/' element={<Home />} />
+                    <Route path='/' element={<Home />} />   
                     <Route path='/about' element={<AboutPage />} />
                     <Route path='/WindowTint' element={<WindowTint />} />
                     <Route path='/solar-control' element={<SolorControlPage />} />

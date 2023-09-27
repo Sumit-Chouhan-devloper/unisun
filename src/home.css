@@ -1,0 +1,31 @@
+.hero_prev_slide {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(2.5px);
+  left: 30px;
+  transition: linear 250ms;
+}
+.hero_prev_slide:nth-last-child(2) {
+  rotate: 180deg;
+  right: 30px;
+  left: unset;
+  transform-origin: top;
+}
+.hero_prev_slide svg path {
+  transition: linear 250ms;
+}
+.hero_prev_slide:hover {
+  background-color: var(--white);
+}
+.hero_prev_slide:hover svg path {
+  fill: var(--black);
+}
+@media (min-width: 768.98) {
+  .hero_prev_slide {
+    left: 70px;
+  }
+  .hero_prev_slide:nth-last-child(2) {
+    right: 70px;
+  }
+}
