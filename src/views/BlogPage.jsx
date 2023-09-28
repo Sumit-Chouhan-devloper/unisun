@@ -9,7 +9,7 @@ const BlogPage = () => {
   return (
     <div>
     <Header btnText="Shop" />
-  <HeroCommon heading="blog page" herocommonbg="aboutus_bg" />
+  <HeroCommon heading="Blog detail" herocommonbg="blog_bg" />
   <BlogWindow/>
  <Subscription/>
  <Footer
