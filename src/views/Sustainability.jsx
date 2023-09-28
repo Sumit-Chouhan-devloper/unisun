@@ -3,12 +3,14 @@ import Header from "../components/common/Header";
 import Footer from "../components/common/Footer";
 import HeroCommon from "../components/common/HeroCommon";
 import Subscription from '../components/common/Subscription';
+import GreenerProduct from '../components/blog-page/GreenerProduct';
 
 const Sustainability = () => {
   return (
     <div>
          <Header btnText="Shop" removeBtn="d-none" />
-        <HeroCommon heading="Sustainability" herocommonbg="WindowTint-bg-img" />
+        <HeroCommon heading="Sustainability" herocommonbg="sustainability-bg" />
+        <GreenerProduct/>
         <Subscription/>
         <Footer
           tab1="Company"

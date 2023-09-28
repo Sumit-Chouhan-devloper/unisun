@@ -56,15 +56,29 @@
   border-radius: 44px;
   background-color: var(--blue);
 }
-
+/* contact bg */
 .contact_bg {
   background-image: url(./assets/images/webp/contactus_bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
+/* blog bg */
 .blog_bg {
   background-image: url(./assets/images/webp/blog-bg-img.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* customised-soluction bg */
+.Customised-soluction-bg{
+  background-image: url(./assets/images/webp/customised-solution-bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.sustainability-bg{
+  background-image: url(./assets/images/webp/sustainability-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -102,3 +116,7 @@
 .blog_bottom_border {
   border-bottom: 1.5px solid #cccccc;
 }
+.clr_black{color: #000;}
+
+/* greener product img */
+.greener_product_img{max-height: 747px;}
