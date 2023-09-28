@@ -2,6 +2,9 @@ import Blogone from "../../assets/images/webp/latestblogone.webp";
 import Blogtwo from "../../assets/images/webp/latestblogtwo.webp";
 import Blogthree from "../../assets/images/webp/latestblogthree.webp";
 import check_car_img from "../../assets/images/png/portal-check-car-image.png";
+import nanoComicImg from "../../assets/images/png/securityfilmimg.png";
+import safetyreflective from "../../assets/images/png/safetyReflective.png";
+import safetyreneutral from "../../assets/images/png/safetyNeutral.png";
 import {
   AntifglareIcon,
   BetterVisibilityIcon,
@@ -467,6 +470,26 @@ export const ProtectionProCardsData = [
     protectioncardimg: pro_pluss_img,
     heading: "Unisun Pro Plus",
     para: "Provide extra strength for your car paint under the harshest environment.",
+    btn: "Read More",
+  },
+];
+export const SecurityFilmCardData = [
+  {
+    protectioncardimg: nanoComicImg,
+    heading: "Clear Safety and Security Film",
+    para: "Thicker film providing extra protection to the glass, and blocking harmful UV rays.",
+    btn: "Read More",
+  },
+  {
+    protectioncardimg: safetyreflective,
+    heading: "Solar Control Safety Reflective Film",
+    para: "With extra protection to the glass, also provides superior solar heat rejection and add more privacy for interior.",
+    btn: "Read More",
+  },
+  {
+    protectioncardimg: safetyreneutral,
+    heading: "Solar Control Safety Neutral Film",
+    para: "With extra protection to the glass, also provides superior solar control capability to make the space cooler.",
     btn: "Read More",
   },
 ];

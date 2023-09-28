@@ -16,13 +16,15 @@ import ProductSpecification from './views/ProductSpecification';
 import ProductWarranties from './views/ProductWarranties';
 import Privacy from './views/Privacy';
 import TermsCondition from './views/TermsCondition';
+import BackToTop from './components/common/BackToTop';
 
 const AppRoutes = () => {
     return (
         <div>
+            <BackToTop/>
             <Router>
                 <Routes>
-                    <Route path='/' element={<Home />} />
+                    <Route path='/' element={<Home />} />   
                     <Route path='/about' element={<AboutPage />} />
                     <Route path='/WindowTint' element={<WindowTint />} />
                     <Route path='/solar-control' element={<SolorControlPage />} />
@@ -37,9 +39,7 @@ const AppRoutes = () => {
                     <Route path="/ProductSpecification" element={<ProductSpecification />} />
                     <Route path="/ProductWarranties" element={<ProductWarranties />} />
                     <Route path="/Privacy" element={<Privacy />} />
-                    <Route path="/TermsCondition" element={<TermsCondition />} />
-
-                    
+                    <Route path="/TermsCondition" element={<TermsCondition />} />  
                 </Routes>
             </Router>
         </div>

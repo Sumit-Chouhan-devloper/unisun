@@ -1,14 +1,17 @@
-import React from 'react'
-import Header from '../components/common/Header'
-import Subscription from '../components/common/Subscription'
-import Footer from '../components/common/Footer'
+import React from "react";
+import Header from "../components/common/Header";
+import Subscription from "../components/common/Subscription";
+import Footer from "../components/common/Footer";
+import HeroSlider from "../components/home-page/HeroSlider";
+import LatestBlogSlider from "../components/home-page/LatestBlogSlider";
 
 const Home = () => {
   return (
     <div>
-        <Header btnText="Shop" />
-        <Subscription/>
-        <Footer
+      <HeroSlider />
+      <LatestBlogSlider heading="Featured" />
+      <Subscription />
+      <Footer
         tab1="Company"
         tab2="Faqs"
         tab3="Help"
@@ -21,7 +24,7 @@ const Home = () => {
         commercialpage2="Product Care"
       />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

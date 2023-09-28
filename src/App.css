@@ -1,3 +1,4 @@
+@import url(./home.css);
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap");
@@ -15,7 +16,7 @@ body {
   text-decoration: none !important;
   color: var(--black) !important;
   background-color: var(--white) !important;
-  font-family: "gilroy-regular", sans-serif;
+  font-family: "gilroy-regular", sans-serif !important;
 }
 
 .overflow_x_hidden {
@@ -1457,4 +1458,51 @@ input,
 
 .overflow-x-hidden {
   overflow-x: hidden;
+}
+
+/* common -cards */
+
+.common_cards_classes {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  border-radius: 10px !important;
+}
+
+.common_cards_classes:hover {
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(80, 76, 76, 0.052) !important;
+  box-shadow: 0px 0px 10px 3px rgba(80, 76, 76, 0.052) !important;
+  border: 1px solid transparent;
+}
+
+.common_cards_classes:hover .slider_main_img_scale {
+  scale: 1.1;
+}
+
+/* common button */
+.latest_blog_btn {
+  -webkit-box-shadow: 0 0 0 0.3em transparent;
+  box-shadow: 0 0 0 0.3em transparent;
+  color: var(--red) !important;
+  background: transparent !important;
+  border: 1px solid var(--red) !important;
+  padding: 12px 25px;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  line-height: 21px;
+}
+
+.latest_blog_btn:focus,
+.latest_blog_btn:hover {
+  animation: pulse 0.9s;
+  -webkit-animation: pulse 0.9s;
+  color: var(--white) !important;
+  background: var(--red) !important;
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .custom_container {
+    max-width: 1140px !important;
+  }
 }

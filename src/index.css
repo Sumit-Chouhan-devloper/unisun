@@ -31,10 +31,27 @@ code {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.SecurityFilebg {
+  background-image: url("../src/assets/images/png//securityFilmbg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 @media (min-width: 992px) {
   .Custom_container {
     max-width: 840px !important;
     margin: 0 auto;
     padding: 0 12px;
   }
+}
+.feature_detail:hover svg path:nth-child(1) {
+  opacity: 1;
+}
+
+.feature_detail:hover svg path:nth-child(1) {
+  fill: #ec0927 !important;
+}
+
+.feature_detail:hover svg path:nth-child(2) {
+  fill: white !important;
 }
