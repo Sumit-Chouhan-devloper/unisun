@@ -102,6 +102,21 @@
 .common_cards_classes:hover .slider_main_img_scale {
   scale: 1.1;
 }
+.chossing_hover:hover .svgImg .secpath {
+  fill: white;
+}
+.chossing_hover:hover .svgImg .underline {
+  fill-opacity: 1;
+}
+.chossing_hover:hover .svgImg .circle {
+  fill-opacity: 1;
+}
+.aboutus-bg {
+  background-image: url("./assets/images/webp/about-car-bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 @media (min-width: 768.98) {
   .hero_prev_slide {
     left: 70px;
@@ -117,6 +132,11 @@
   .blog_slider_left_arrow {
     left: -3%;
   }
+  .choosing_img_spacing {
+    -webkit-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    transform: translateX(-50px);
+  }
 }
 @media (min-width: 1330px) {
   .blog_slider_right_arrow {
@@ -124,5 +144,13 @@
   }
   .blog_slider_left_arrow {
     left: -8%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .choosing_img_spacing {
+    -webkit-transform: translateX(-70px);
+    -ms-transform: translateX(-70px);
+    transform: translateX(-70px);
   }
 }

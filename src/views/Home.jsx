@@ -4,11 +4,13 @@ import Subscription from "../components/common/Subscription";
 import Footer from "../components/common/Footer";
 import HeroSlider from "../components/home-page/HeroSlider";
 import LatestBlogSlider from "../components/home-page/LatestBlogSlider";
+import WhyChoosingUnisun from "../components/home-page/WhyChoosingUnisun";
 
 const Home = () => {
   return (
     <div>
       <HeroSlider />
+      <WhyChoosingUnisun />
       <LatestBlogSlider heading="Featured" />
       <Subscription />
       <Footer
