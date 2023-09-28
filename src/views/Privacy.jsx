@@ -3,6 +3,7 @@ import Header from "../components/common/Header";
 import Footer from "../components/common/Footer";
 import HeroCommon from "../components/common/HeroCommon";
 import Subscription from "../components/common/Subscription";
+import PrivacyText from "../components/Privacy/PrivacyText";
 
 const Privacy = () => {
   return (
@@ -13,6 +14,7 @@ const Privacy = () => {
           heading="Privacy Policy"
           herocommonbg="PrivacyHero-bg-img"
         />
+        <PrivacyText/>
         <Subscription />
         <Footer
           tab1="Company"
