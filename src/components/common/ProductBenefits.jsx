@@ -29,7 +29,7 @@ const ProductBenefits = (props) => {
               >
                 {props.subheading}
               </p>
-             
+              {props.children}
             </div>
           </div>
         </div>

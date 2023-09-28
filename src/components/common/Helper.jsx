@@ -30,6 +30,8 @@ import {
   ServicesIcon,
   TechnologiesIcon,
   UvProtectIcon,
+  SafetyProtection,
+  HeatShrinkage,
 } from "./Icons";
 import Automobile from "../../assets/images/webp/automobile.webp";
 import PaintProtection from "../../assets/images/webp/paintprotection.webp";
@@ -75,6 +77,7 @@ import {
   ProductDetailLifeIcon,
   ProductDetailReturnIcon,
   ProductDetailSameIcon,
+  UvProtextionIcon,
 } from "./IconsHero";
 import newCardsCarImg1 from "../../assets/images/webp/automotive-new-cards-img-1.webp";
 import newCardsCarImg2 from "../../assets/images/webp/automotive-new-cards-img-2.webp";
@@ -1192,5 +1195,103 @@ export const PremiumDyedWindowTintRight = [
     svgIcon: <GpsIcon />,
     heading: "Not blocking cell phone or GPS signals",
     Para: "It does not blocking any radio, cellular,gps or bluetooth signals.",
+  },
+];
+export const AirBlueWindowTintLeft = [
+  {
+    svgIcon: <HeatIcon />,
+    heading: "Heat Rejection",
+    Para: "Similar as legacy ceramic window tint, it blocks up to 98% of infrared solar heat from entering the car.",
+  },
+  {
+    svgIcon: <EyesIcon />,
+    heading: "Ultra-clarity",
+    Para: "With extremely low haze especially for the window shield, it helps providingultra-clear view no matter at daytime or at night.",
+  },
+];
+export const AirBlueWindowTintRight = [
+  {
+    svgIcon: <UvProtectIcon />,
+    heading: "UV protection",
+    Para: "It blocks 99% of the UV rays.",
+  },
+  {
+    svgIcon: <GpsIcon />,
+    heading: "Not blocking cell phone or GPS signals",
+    Para: "The tint does not blocking any radio, cellular,gps or bluetooth signals.",
+  },
+];
+
+export const MetallizedWindowTintLeft = [
+  {
+    svgIcon: <HeatIcon />,
+    heading: "Heat Rejection",
+    Para: "It significantly reflect the solar heat from entering the car. The interior cools down quicker, and reduce fuel usage while using the AC of your",
+  },
+  {
+    svgIcon: <EyesIcon />,
+    heading: "Better apperance",
+    Para: "Looks better than the original clear glass, especially with subtle metallic shine",
+  },
+  {
+    svgIcon: <AntifglareIcon />,
+    heading: "Anti-Glare",
+    Para: "It could help reduce harsh glare from the sun shines, which can lead to drowsy and eyestrain.",
+  },
+];
+export const MetallizedWindowTintRight = [
+  {
+    svgIcon: <UvProtectIcon />,
+    heading: "UV protection",
+    Para: "It blocks 99% of the UV rays, which protect your skin and eyes, and protect the interior such as seats and dashboard from sun fading and deterioration.",
+  },
+  {
+    svgIcon: <PrivacyIcon />,
+    heading: "More Privacy",
+    Para: "Added privacy that helps to conceal things inside the car.",
+  },
+];
+export const CeramicSafetyWindowTintLeft = [
+  {
+    svgIcon: <SafetyProtection />,
+    heading: "Safety Protection",
+    Para: "It provides exceptional blast and impact-resistant capabilities to keep you safe, similar as the protection that legacy safety and security film does to the architectural glass.",
+  },
+  {
+    svgIcon: <HeatIcon />,
+    heading: "Heat Rejection",
+    Para: "Similar as legacy ceramic window tint, it blocks up to 98% of infrared solar heat from entering the car.",
+  },
+  {
+    svgIcon: <PrivacyIcon />,
+    heading: "More Privacy",
+    Para: "Added privacy that helps to conceal things inside the car.",
+  },
+  {
+    svgIcon: <AntifglareIcon />,
+    heading: "Anti-Glare",
+    Para: "It could help reduce harsh glare from the sun shines, which can lead to drowsy and eyestrain.",
+  },
+];
+export const CeramicSafetyWindowTintRight = [
+  {
+    svgIcon: <HeatShrinkage />,
+    heading: "Heat Shrinkage",
+    Para: "For the thicker film such as 8mil thickness, it has perfect heat shrinkage that makes the installation easier.",
+  },
+  {
+    svgIcon: <UvProtectIcon />,
+    heading: "UV protection",
+    Para: "It blocks 99% of the UV rays.",
+  },
+  {
+    svgIcon: <EyesIcon />,
+    heading: "Ultra-clarity",
+    Para: "With extremely low haze especially for the window shield, it helps providingultra-clear view no matter at daytime or at night.",
+  },
+  {
+    svgIcon: <GpsIcon />,
+    heading: "Not blocking cell phone or GPS signals",
+    Para: "The tint does not blocking any radio, cellular,gps or bluetooth signals.",
   },
 ];

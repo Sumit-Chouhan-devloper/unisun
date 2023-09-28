@@ -4,3 +4,13 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.feature_detail:hover svg.HeatShrinkage g path {
+    fill: white !important;
+}
+
+@media (min-width:1200px) {
+    .ps_xl_70 {
+        padding-left: 70px !important;
+    }
+}

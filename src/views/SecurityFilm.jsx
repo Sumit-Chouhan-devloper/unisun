@@ -40,8 +40,41 @@ const SecurityFilm = () => {
         subheading="With high tensile heavy-duty polyester film, plus aggressive adhesive that bonds tightly to glass, the clear safety and security filmis able to handle more extreme direct force, thus provide extra protection against intrusions, flying debris, accidents, or disasters."
       />
 
+
 <CommonCards    mapDataLeft={NanoCeramicLeft}
         mapDataRight={NanoCeramicRight}/>
+
+         <ProductBenefits
+        imgUrl={nanoComicImg}
+        rowmanage=" bottom_spacing"
+        textSpacing="nanocomic_text_nanocramic"
+        manageSpacing="manageSpacing"
+        textcolor1="color_blue"
+        textcolor2="color_red"
+        heading="Clear Safety and "
+        heading2="Security Film"
+        subheading="With high tensile heavy-duty polyester film, plus aggressive adhesive that bonds tightly to glass, the clear safety and security filmis able to handle more extreme direct force, thus provide extra protection against intrusions, flying debris, accidents, or disasters."
+      />
+
+<CommonCards    mapDataLeft={NanoCeramicLeft}
+        mapDataRight={NanoCeramicRight}/>
+
+<ProductBenefits
+        imgUrl={nanoComicImg}
+        rowmanage="flex_row_reverse bottom_spacing"
+        textSpacing="nanocomic_text_nanocramic"
+        manageSpacing="manageSpacing"
+        textcolor1="color_blue"
+        textcolor2="color_red"
+        heading="Clear Safety and "
+        heading2="Security Film"
+        subheading="With high tensile heavy-duty polyester film, plus aggressive adhesive that bonds tightly to glass, the clear safety and security filmis able to handle more extreme direct force, thus provide extra protection against intrusions, flying debris, accidents, or disasters."
+      />
+
+
+<CommonCards    mapDataLeft={NanoCeramicLeft}
+        mapDataRight={NanoCeramicRight}/>
+
 
       <Subscription />
       <Footer

@@ -8,6 +8,9 @@ import CommonCards from "../components/common/CommonCards";
 import nanoComicImg from "../assets/images/webp/men-wrapping-mirror.webp";
 import blackcaropendoor from "../assets/images/webp/black-car-open-door.webp";
 import ligthgreenlamborghini from "../assets/images/webp/lightgreen-lamborghini.webp";
+import blueBMW from "../assets/images/webp/blueBMW.webp";
+import redFarrari from "../assets/images/webp/red-farrari.webp";
+import whiteBugatti from "../assets/images/webp/white-bugatti.webp";
 import {
   LastNanoCarbon,
   LastNanoCarbonLeft,
@@ -22,6 +25,12 @@ import {
   AutomotiveWindowTintRight,
   PremiumDyedWindowTintLeft,
   PremiumDyedWindowTintRight,
+  AirBlueWindowTintLeft,
+  AirBlueWindowTintRight,
+  MetallizedWindowTintLeft,
+  MetallizedWindowTintRight,
+  CeramicSafetyWindowTintLeft,
+  CeramicSafetyWindowTintRight,
 } from "../components/common/Helper";
 const WindowTint = () => {
   return (
@@ -40,8 +49,14 @@ const WindowTint = () => {
         textcolor2="color_blue"
         heading="Nano Carbon "
         heading2="Window Tint"
-        subheading="Of the light that reaches Earth's surface, infrared radiation makes up more than 40% of solar energy. Unisun ceramic window tint is coated with nano scale particles of Titanium or Tungsten compounds, which is the key to block the heat-generating infrared rays. It is also powerful to block harmful UV rays. With our cutting-edge nano-X coating technology, Unisun ceramic tint provides super clear view through car windows as it has extremely low level of haze."
-      />
+        subheading="Of the light that reaches Earth’s surface, infrared radiation makes up more than 40% of solar energy.Unisun ceramic window tint is coated with nano scale particles of Titanium or Tungsten compounds, which is the key to block the heat-generating infrared rays. It is also powerful to block harmful UV rays."
+      >
+        <p className="fw-normal font_md text-black opacity_07 mb-0 lh_174_percent mt-4">
+          With ourcutting-edge nano-X coating technology, Unisun ceramic
+          tintprovidessuper clear view through car windows as it has extremely
+          low level of haze.
+        </p>
+      </ProductBenefits>
       <CommonCards
         mapDataLeft={AutomotiveWindowTintLeft}
         mapDataRight={AutomotiveWindowTintRight}
@@ -50,13 +65,13 @@ const WindowTint = () => {
       <ProductBenefits
         imgUrl={blackcaropendoor}
         rowmanage="flex_row bottom_spacing"
-        textSpacing="nanocomic_text_nanocramic"
+        textSpacing=" ps_xl_70"
         manageSpacing="manageSpacing"
         textcolor1="color_red"
         textcolor2="color_blue"
         heading="Nano-Ceramic "
         heading2="Window Tint"
-        subheading="With the advances of nano technology, the tiny carbon particles are coated to the film. Compared with legacy dyed film which would discolor in a couple of years, nano carbon film would never fade during the lifetime. The carbon particle could block heat-generating infrared significantly while the legacy dyed film cannot. In the mean time, it could block of UV rays"
+        subheading="With the advances of nano technology, the tiny carbon particles are coated to the film. Compared with legacy dyed film which would discolor in a couple of years, nano carbon film would never fade during the lifetime. The carbon particle could block heat-generating infrared significantly while the legacy dyed film cannot. In the mean time, it could block harmful UV rays."
       />
 
       <CommonCards
@@ -77,6 +92,62 @@ const WindowTint = () => {
       <CommonCards
         mapDataLeft={PremiumDyedWindowTintLeft}
         mapDataRight={PremiumDyedWindowTintRight}
+      />
+      <ProductBenefits
+        imgUrl={blueBMW}
+        rowmanage="flex_row bottom_spacing"
+        textSpacing="ps_xl_70"
+        manageSpacing="manageSpacing"
+        textcolor1="color_red"
+        textcolor2="color_blue"
+        heading="Air Blue"
+        heading2="Window Tint"
+        subheading="Air blue window tint is our supreme quality ceramic window tint with very low VLTs. With ourcutting-edge nano-X coating technology, itblocks the heat-generating infrared rays while providingsuper clear view through car windows as it has extremely low level of haze.It is also powerful to block harmful UV rays."
+      >
+        <p className="fw-normal font_md text-black opacity_07 mb-0 lh_174_percent mt-4">
+          Air blue window tint is usually used for window shield.
+        </p>
+      </ProductBenefits>
+
+      <CommonCards
+        mapDataLeft={AirBlueWindowTintLeft}
+        mapDataRight={AirBlueWindowTintRight}
+      />
+      <ProductBenefits
+        imgUrl={redFarrari}
+        rowmanage="flex_row_reverse bottom_spacing"
+        textSpacing="nanocomic_text_nanocramic"
+        manageSpacing="manageSpacing"
+        textcolor1="color_red"
+        textcolor2="color_blue"
+        heading="Metallized"
+        heading2="Window Tint"
+        subheading="With tiny metallic particles attached to the film evenly and firmly, UNISUN metallized tint are reliable reflecting the solar heat, and can also give the car a little shiny look. It is also powerful to block harmful UV rays."
+      />
+      <CommonCards
+        mapDataLeft={MetallizedWindowTintLeft}
+        mapDataRight={MetallizedWindowTintRight}
+      />
+      <ProductBenefits
+        imgUrl={whiteBugatti}
+        rowmanage="flex_row bottom_spacing"
+        textSpacing="ps_xl_70"
+        manageSpacing="manageSpacing"
+        textcolor1="color_red"
+        textcolor2="color_blue"
+        heading="Ceramic Safety "
+        heading2="Window Tint"
+        subheading="Unisun ceramicsafety window tint can provide extra protection that reinforces auto windows and holds the shattered glass together against accidents and all kinds of road hazards. It’s also ceramic film that blocks the heat-generating infrared rays and blocks harmful UV rays as the legacy ceramic tint does."
+      >
+        <p className="fw-normal font_md text-black opacity_07 mb-0 lh_174_percent mt-4">
+          Multiple VLTs and multiple thickness (4mil, 6mil and 8mil) are
+          available.
+        </p>
+      </ProductBenefits>
+
+      <CommonCards
+        mapDataLeft={CeramicSafetyWindowTintLeft}
+        mapDataRight={CeramicSafetyWindowTintRight}
       />
       <Subscription />
       <Footer
