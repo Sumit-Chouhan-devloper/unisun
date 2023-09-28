@@ -56,6 +56,20 @@
   border-radius: 44px;
   background-color: var(--blue);
 }
+
+.contact_bg {
+  background-image: url(./assets/images/webp/contactus_bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.blog_bg {
+  background-image: url(./assets/images/webp/blog-bg-img.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 @media (min-width: 576px) {
   .contact_form input {
     padding: 13px 16px;

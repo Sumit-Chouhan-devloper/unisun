@@ -9,7 +9,7 @@ const ContactPage = () => {
   return (
     <div>
            <Header btnText="Shop" />
-         <HeroCommon heading="contact" herocommonbg="aboutus_bg" />
+         <HeroCommon  herocommonbg="contact_bg" />
          <ContactForm/>
         <Subscription/>
         <Footer
