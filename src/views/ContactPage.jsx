@@ -1,18 +1,18 @@
-import React from 'react'
-import Header from '../components/common/Header'
-import Subscription from '../components/common/Subscription'
-import Footer from '../components/common/Footer'
-import HeroCommon from '../components/common/HeroCommon'
-import ContactForm from './ContactForm'
+import React from "react";
+import Header from "../components/common/Header";
+import Subscription from "../components/common/Subscription";
+import Footer from "../components/common/Footer";
+import HeroCommon from "../components/common/HeroCommon";
+import ContactForm from "../components/blog-page/ContactForm";
 
 const ContactPage = () => {
   return (
     <div>
-           <Header btnText="Shop" />
-         <HeroCommon  herocommonbg="contact_bg" />
-         <ContactForm/>
-        <Subscription/>
-        <Footer
+      <Header btnText="Shop" />
+      <HeroCommon herocommonbg="contact_bg" />
+      <ContactForm />
+      <Subscription />
+      <Footer
         tab1="Company"
         tab2="Faqs"
         tab3="Help"
@@ -25,7 +25,7 @@ const ContactPage = () => {
         commercialpage2="Product Care"
       />
     </div>
-  )
-}
+  );
+};
 
-export default ContactPage
+export default ContactPage;

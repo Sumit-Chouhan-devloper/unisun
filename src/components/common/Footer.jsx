@@ -1,6 +1,6 @@
 import React from "react";
 import footerlogo from "../../assets/images/svg/footer-logo.svg";
-import { DiscordIcon, EmailIcon, LocationIcon, TwiterIcon } from "./Icons";
+import { DiscordIcon, EmailIcon, FacebookIcon, LinkdinIcon, LocationIcon, TwiterIcon } from "./Icons";
 import { Link } from "react-router-dom";
 const Footer = (props) => {
   const today = new Date();
@@ -21,8 +21,7 @@ const Footer = (props) => {
                 />
               </Link>
               <p className="para fs_13 footer_pera_max_width opacity_07 lh_160 color_white mt-2 mt-xl-3 mb-0 pt-1">
-                Rutrum risus erat sit in blandit malesuada diam magnaon etiam
-                mauris elit.
+              Driven by Innovation
               </p>
               <div>
                 <p className="fs_13 mt-xl-4 mt-3 pt-sm-0 pt-2 para mb-0 color_white fw-normal opacity_07">
@@ -40,11 +39,29 @@ const Footer = (props) => {
                   </a>
                   <a
                     aria-label="twitter"
+                    className="me-2 me-sm-3"
                     target="_blank"
                     rel="noreferrer"
                     href="https://twitter.com/"
                   >
                     <TwiterIcon />
+                  </a>
+                  <a
+                    aria-label="twitter"
+                    className="me-2 me-sm-3"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://twitter.com/"
+                  >
+                    <FacebookIcon/>
+                  </a>
+                  <a
+                    aria-label="twitter"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://twitter.com/"
+                  >
+                    <LinkdinIcon/>
                   </a>
                 </div>
               </div>

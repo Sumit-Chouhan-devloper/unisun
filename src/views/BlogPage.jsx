@@ -3,7 +3,7 @@ import Header from '../components/common/Header'
 import Subscription from '../components/common/Subscription'
 import Footer from '../components/common/Footer'
 import HeroCommon from '../components/common/HeroCommon'
-import BlogWindow from './BlogWindow'
+import BlogWindow from '../components/blog-page/BlogWindow'
 
 const BlogPage = () => {
   return (

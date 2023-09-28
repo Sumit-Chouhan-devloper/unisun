@@ -3,12 +3,14 @@ import Header from "../components/common/Header";
 import Footer from "../components/common/Footer";
 import HeroCommon from "../components/common/HeroCommon";
 import Subscription from '../components/common/Subscription';
+import KeyAdvantege from '../components/blog-page/KeyAdvantege';
 
 const CustomizedSolutions = () => {
   return (
     <div>
          <Header btnText="Shop" removeBtn="d-none" />
-        <HeroCommon heading="Customized Solutions" herocommonbg="WindowTint-bg-img" />
+        <HeroCommon heading="Customized Solutions" herocommonbg="Customised-soluction-bg" />
+        <KeyAdvantege/>
         <Subscription/>
         <Footer
           tab1="Company"
