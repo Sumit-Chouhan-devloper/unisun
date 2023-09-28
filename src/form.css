@@ -7,7 +7,7 @@
 }
 .contact_form {
   padding: 16px;
-} 
+}
 .contact_form input {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: var(--white);
@@ -56,13 +56,31 @@
   border-radius: 44px;
   background-color: var(--blue);
 }
+
+.contact_bg {
+  background-image: url(./assets/images/webp/contactus_bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.blog_bg {
+  background-image: url(./assets/images/webp/blog-bg-img.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 @media (min-width: 576px) {
   .contact_form input {
     padding: 13px 16px;
   }
+  .related_blog_img {
+    height: 95px !important;
+    width: 95px !important;
+  }
   .contact_form {
     padding: 34px;
-  } 
+  }
   .contact_form .form-select {
     padding: 13px 16px 13px 16px !important;
   }
@@ -72,4 +90,15 @@
   .consumer_btn {
     padding: 12px 35px;
   }
+}
+.related_blog_img {
+  height: 70px;
+  width: 70px;
+}
+/* bloge window */
+.bottom_para_bg {
+  background: #e4e5ff;
+}
+.blog_bottom_border {
+  border-bottom: 1.5px solid #cccccc;
 }

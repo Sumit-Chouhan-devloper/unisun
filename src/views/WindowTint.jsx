@@ -11,6 +11,8 @@ import ligthgreenlamborghini from "../assets/images/webp/lightgreen-lamborghini.
 import blueBMW from "../assets/images/webp/blueBMW.webp";
 import redFarrari from "../assets/images/webp/red-farrari.webp";
 import whiteBugatti from "../assets/images/webp/white-bugatti.webp";
+import LatestBlogSlider from "../components/home-page/LatestBlogSlider";
+import SecurityCards from "../components/security-page/SecurityCards";
 import {
   LastNanoCarbon,
   LastNanoCarbonLeft,
@@ -31,7 +33,10 @@ import {
   MetallizedWindowTintRight,
   CeramicSafetyWindowTintLeft,
   CeramicSafetyWindowTintRight,
+  SecurityFilmCardData,
+  AutomotiveWindowTint,
 } from "../components/common/Helper";
+import HeroDiscription from "../components/common/HeroDiscription";
 const WindowTint = () => {
   return (
     <div>
@@ -39,6 +44,11 @@ const WindowTint = () => {
       <HeroCommon
         heading="Automotive Window Tint"
         herocommonbg="Window-bg-img"
+      />
+      <HeroDiscription />
+      <SecurityCards
+        window_tint_cards_height="common_cards_height"
+        mapData={AutomotiveWindowTint}
       />
       <ProductBenefits
         imgUrl={nanoComicImg}
@@ -149,6 +159,7 @@ const WindowTint = () => {
         mapDataLeft={CeramicSafetyWindowTintLeft}
         mapDataRight={CeramicSafetyWindowTintRight}
       />
+      <LatestBlogSlider />
       <Subscription />
       <Footer
         tab1="Company"

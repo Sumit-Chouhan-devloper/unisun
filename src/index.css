@@ -19,7 +19,6 @@ code {
   background-position: center;
 }
 
-/* props image */
 .TermsHero-bg-img {
   background-image: url("../src/assets/images/webp/terms_hero-bg.webp");
   background-position: center;
@@ -29,6 +28,13 @@ code {
 
 .PrivacyHero-bg-img {
   background-image: url("../src/assets/images/webp/privacy_hero-bg-img.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.SecurityFilebg {
+  background-image: url("../src/assets/images/png//securityFilmbg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

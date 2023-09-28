@@ -2,6 +2,9 @@ import Blogone from "../../assets/images/webp/latestblogone.webp";
 import Blogtwo from "../../assets/images/webp/latestblogtwo.webp";
 import Blogthree from "../../assets/images/webp/latestblogthree.webp";
 import check_car_img from "../../assets/images/png/portal-check-car-image.png";
+import nanoComicImg from "../../assets/images/png/securityfilmimg.png";
+import safetyreflective from "../../assets/images/png/safetyReflective.png";
+import safetyreneutral from "../../assets/images/png/safetyNeutral.png";
 import {
   AntifglareIcon,
   BetterVisibilityIcon,
@@ -56,6 +59,12 @@ import solarReadMoreCardImg6 from "../../assets/images/webp/solar-read-more-card
 import nanoCromicCar from "../../assets/images/webp/caramic-car.webp";
 import nanoCromicCar2 from "../../assets/images/webp/metallized-car.webp";
 import nanoCromicCar3 from "../../assets/images/webp/nano-car.webp";
+import AutomotiveCardImg1 from "../../assets/images/webp/AutomotiveWindowTintCardImg-1.webp";
+import AutomotiveCardImg2 from "../../assets/images/webp/AutomotiveWindowTintCardImg-2.webp";
+import AutomotiveCardImg3 from "../../assets/images/webp/AutomotiveWindowTintCardImg-3.webp";
+import AutomotiveCardImg4 from "../../assets/images/webp/AutomotiveWindowTintCardImg-4.webp";
+import AutomotiveCardImg5 from "../../assets/images/webp/AutomotiveWindowTintCardImg-5.webp";
+import AutomotiveCardImg6 from "../../assets/images/webp/AutomotiveWindowTintCardImg-6.webp";
 
 // PORTAL-HOME-PAGE
 import automotive_shop_img from "../../assets/images/webp/metallized-car.webp";
@@ -470,6 +479,26 @@ export const ProtectionProCardsData = [
     protectioncardimg: pro_pluss_img,
     heading: "Unisun Pro Plus",
     para: "Provide extra strength for your car paint under the harshest environment.",
+    btn: "Read More",
+  },
+];
+export const SecurityFilmCardData = [
+  {
+    protectioncardimg: nanoComicImg,
+    heading: "Clear Safety and Security Film",
+    para: "Thicker film providing extra protection to the glass, and blocking harmful UV rays.",
+    btn: "Read More",
+  },
+  {
+    protectioncardimg: safetyreflective,
+    heading: "Solar Control Safety Reflective Film",
+    para: "With extra protection to the glass, also provides superior solar heat rejection and add more privacy for interior.",
+    btn: "Read More",
+  },
+  {
+    protectioncardimg: safetyreneutral,
+    heading: "Solar Control Safety Neutral Film",
+    para: "With extra protection to the glass, also provides superior solar control capability to make the space cooler.",
     btn: "Read More",
   },
 ];
@@ -1293,5 +1322,49 @@ export const CeramicSafetyWindowTintRight = [
     svgIcon: <GpsIcon />,
     heading: "Not blocking cell phone or GPS signals",
     Para: "The tint does not blocking any radio, cellular,gps or bluetooth signals.",
+  },
+];
+
+export const AutomotiveWindowTint = [
+  {
+    protectioncardimg: AutomotiveCardImg1,
+    heading: "Nano-Ceramic Window Tint",
+    para: "With the latest advances in nano technology, Unisun® ceramic auto tint is able to provide unparalleled clarity and exceptional heat rejection.",
+    CardHeight: "windowtint_card",
+    btn: "Read more",
+  },
+  {
+    protectioncardimg: AutomotiveCardImg2,
+    heading: "Nano-Carbon Window Tint",
+    para: "UNISUN® Nano-carbon auto tint is made using color-stable nano-carbon, which could last a lifetime and block infrared solar heat.",
+    CardHeight: "windowtint_card",
+    btn: "Read more",
+  },
+  {
+    protectioncardimg: AutomotiveCardImg3,
+    heading: "Premium Dyed Window Tint",
+    para: "The dyed window tint makes your car look cool, and make you feel comfortable with less glare and UV protection, and the color could last forever without any fading",
+    CardHeight: "windowtint_card",
+    btn: "Read more",
+  },
+  {
+    protectioncardimg: AutomotiveCardImg4,
+    heading: "Air Blue Window Tint",
+    para: "UNISUN® air blue window tint is ceramic tint essentially with very light color, providing excellent heat rejection and UV protection. It’s suitable for the window shield.",
+    CardHeight: "windowtint_card",
+    btn: "Read more",
+  },
+  {
+    protectioncardimg: AutomotiveCardImg5,
+    heading: "Metallized Window Tint",
+    para: "With metalized layer, the metalized window tint like UNISUN HP seriesis able to reflect the solar heatand add more privacy.",
+    btn: "Read more",
+  },
+  {
+    protectioncardimg: AutomotiveCardImg6,
+    heading: "Ceramic Safety Window Tint",
+    para: "UNISUN® ceramic safety window tint is a combination of ceramic tint and the clear safety window tint, with perfect heat shrinkage for easy installation.",
+    CardHeight: "windowtint_card",
+    btn: "Read more",
   },
 ];

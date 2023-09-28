@@ -25,5 +25,5 @@ const Sustainability = () => {
     </div>
   )
 }
-
+  
 export default Sustainability

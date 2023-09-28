@@ -3,12 +3,14 @@ import Header from '../components/common/Header'
 import Subscription from '../components/common/Subscription'
 import Footer from '../components/common/Footer'
 import HeroCommon from '../components/common/HeroCommon'
+import BlogWindow from './BlogWindow'
 
 const BlogPage = () => {
   return (
     <div>
     <Header btnText="Shop" />
-  <HeroCommon heading="blog page" herocommonbg="aboutus_bg" />
+  <HeroCommon heading="Blog detail" herocommonbg="blog_bg" />
+  <BlogWindow/>
  <Subscription/>
  <Footer
  tab1="Company"
