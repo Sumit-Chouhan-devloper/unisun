@@ -31,6 +31,12 @@ code {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.SecurityFilebg {
+  background-image: url("../src/assets/images/png//securityFilmbg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 @media (min-width: 992px) {
   .Custom_container {
     max-width: 840px !important;
