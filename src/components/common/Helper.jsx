@@ -2,6 +2,9 @@ import Blogone from "../../assets/images/webp/latestblogone.webp";
 import Blogtwo from "../../assets/images/webp/latestblogtwo.webp";
 import Blogthree from "../../assets/images/webp/latestblogthree.webp";
 import check_car_img from "../../assets/images/png/portal-check-car-image.png";
+import nanoComicImg from "../../assets/images/png/securityfilmimg.png";
+import safetyreflective from "../../assets/images/png/safetyReflective.png";
+import safetyreneutral from "../../assets/images/png/safetyNeutral.png";
 import {
   AntifglareIcon,
   BetterVisibilityIcon,
@@ -30,6 +33,8 @@ import {
   ServicesIcon,
   TechnologiesIcon,
   UvProtectIcon,
+  SafetyProtection,
+  HeatShrinkage,
 } from "./Icons";
 import Automobile from "../../assets/images/webp/automobile.webp";
 import PaintProtection from "../../assets/images/webp/paintprotection.webp";
@@ -54,6 +59,12 @@ import solarReadMoreCardImg6 from "../../assets/images/webp/solar-read-more-card
 import nanoCromicCar from "../../assets/images/webp/caramic-car.webp";
 import nanoCromicCar2 from "../../assets/images/webp/metallized-car.webp";
 import nanoCromicCar3 from "../../assets/images/webp/nano-car.webp";
+import AutomotiveCardImg1 from "../../assets/images/webp/AutomotiveWindowTintCardImg-1.webp";
+import AutomotiveCardImg2 from "../../assets/images/webp/AutomotiveWindowTintCardImg-2.webp";
+import AutomotiveCardImg3 from "../../assets/images/webp/AutomotiveWindowTintCardImg-3.webp";
+import AutomotiveCardImg4 from "../../assets/images/webp/AutomotiveWindowTintCardImg-4.webp";
+import AutomotiveCardImg5 from "../../assets/images/webp/AutomotiveWindowTintCardImg-5.webp";
+import AutomotiveCardImg6 from "../../assets/images/webp/AutomotiveWindowTintCardImg-6.webp";
 
 // PORTAL-HOME-PAGE
 import automotive_shop_img from "../../assets/images/webp/metallized-car.webp";
@@ -75,6 +86,7 @@ import {
   ProductDetailLifeIcon,
   ProductDetailReturnIcon,
   ProductDetailSameIcon,
+  UvProtextionIcon,
 } from "./IconsHero";
 import newCardsCarImg1 from "../../assets/images/webp/automotive-new-cards-img-1.webp";
 import newCardsCarImg2 from "../../assets/images/webp/automotive-new-cards-img-2.webp";
@@ -138,32 +150,32 @@ export const LatestProductsData = [
   {
     img: Automobile,
     para: "Automobile Window Tint",
-    redirect:"/about"
+    redirect: "/about",
   },
   {
     img: PaintProtection,
     para: "Paint Protection Film ",
-    redirect:"/about"
+    redirect: "/about",
   },
   {
     img: Architectural,
     para: " Architectural Window Film",
-    redirect:"/about"
+    redirect: "/about",
   },
   {
     img: Antimicrobial,
     para: "Antimicrobial Film",
-    redirect:"/about"
+    redirect: "/about",
   },
   {
     img: Safety,
     para: "Safety & Security Film",
-    redirect:"/SecurityFilm"
+    redirect: "/SecurityFilm",
   },
   {
     img: Customized,
     para: "Customized Solutions",
-    redirect:"/CustomizedSolutions"
+    redirect: "/CustomizedSolutions",
   },
 ];
 export const BlogsCardData = [
@@ -467,6 +479,26 @@ export const ProtectionProCardsData = [
     protectioncardimg: pro_pluss_img,
     heading: "Unisun Pro Plus",
     para: "Provide extra strength for your car paint under the harshest environment.",
+    btn: "Read More",
+  },
+];
+export const SecurityFilmCardData = [
+  {
+    protectioncardimg: nanoComicImg,
+    heading: "Clear Safety and Security Film",
+    para: "Thicker film providing extra protection to the glass, and blocking harmful UV rays.",
+    btn: "Read More",
+  },
+  {
+    protectioncardimg: safetyreflective,
+    heading: "Solar Control Safety Reflective Film",
+    para: "With extra protection to the glass, also provides superior solar heat rejection and add more privacy for interior.",
+    btn: "Read More",
+  },
+  {
+    protectioncardimg: safetyreneutral,
+    heading: "Solar Control Safety Neutral Film",
+    para: "With extra protection to the glass, also provides superior solar control capability to make the space cooler.",
     btn: "Read More",
   },
 ];
@@ -1131,5 +1163,208 @@ export const AutomotiveCardsData = [
     heading: "Premium Dyed Series",
     para: "Lorem ipsum dolor sit amet consectetur. Tincidunt molestie id viverra neque turpis aliquet morbi id tortor. Nunc id scelerisque volutpat consectetur felis risus quis ultrices.",
     btn: "More details",
+  },
+];
+
+export const AutomotiveWindowTintLeft = [
+  {
+    svgIcon: <HeatIcon />,
+    heading: "Heat Rejection",
+    Para: "By blocking up to 98% of infrared solar heat from entering the car, it could make the car cooling down quicker inside, which significantly reduces energy consumption of AC of the car.",
+  },
+  {
+    svgIcon: <PrivacyIcon />,
+    heading: "More Privacy",
+    Para: "Added privacy that helps to conceal things inside the car",
+  },
+  {
+    svgIcon: <AntifglareIcon />,
+    heading: "Anti-Glare",
+    Para: "It could help reduce harsh glare from the sun shines, which can lead to drowsy and eyestrain.",
+  },
+];
+
+export const AutomotiveWindowTintRight = [
+  {
+    svgIcon: <UvProtectIcon />,
+    heading: "UV protection",
+    Para: "Blocks more than 99% of harmful UV rays, protect skin, protect furniture and carpets.",
+  },
+  {
+    svgIcon: <EyesIcon />,
+    heading: "Ultra-clarity",
+    Para: "With extremely low haze especially for the window shield, it helps providing ultra-clear view no matter at daytime or at night",
+  },
+  {
+    svgIcon: <GpsIcon />,
+    heading: "Not blocking cell phone or GPS signals",
+    Para: "The tint does not blocking any radio, cellular, gps or bluetooth signals.",
+  },
+];
+
+export const PremiumDyedWindowTintLeft = [
+  {
+    svgIcon: <UvProtectIcon />,
+    heading: "UV protection",
+    Para: "It blocks 99% of the UV rays, which protect your skin and eyes, and protect the interior such as seats and dashboard from sun fading and deterioration.",
+  },
+  {
+    svgIcon: <AntifglareIcon />,
+    heading: "Anti-Glare",
+    Para: "It could help reduce harsh glare from the sun shines, which can lead to drowsy and eyestrain",
+  },
+];
+export const PremiumDyedWindowTintRight = [
+  {
+    svgIcon: <PrivacyIcon />,
+    heading: "More Privacy",
+    Para: "Added privacy that helps to conceal things inside the car.",
+  },
+  {
+    svgIcon: <GpsIcon />,
+    heading: "Not blocking cell phone or GPS signals",
+    Para: "It does not blocking any radio, cellular,gps or bluetooth signals.",
+  },
+];
+export const AirBlueWindowTintLeft = [
+  {
+    svgIcon: <HeatIcon />,
+    heading: "Heat Rejection",
+    Para: "Similar as legacy ceramic window tint, it blocks up to 98% of infrared solar heat from entering the car.",
+  },
+  {
+    svgIcon: <EyesIcon />,
+    heading: "Ultra-clarity",
+    Para: "With extremely low haze especially for the window shield, it helps providingultra-clear view no matter at daytime or at night.",
+  },
+];
+export const AirBlueWindowTintRight = [
+  {
+    svgIcon: <UvProtectIcon />,
+    heading: "UV protection",
+    Para: "It blocks 99% of the UV rays.",
+  },
+  {
+    svgIcon: <GpsIcon />,
+    heading: "Not blocking cell phone or GPS signals",
+    Para: "The tint does not blocking any radio, cellular,gps or bluetooth signals.",
+  },
+];
+
+export const MetallizedWindowTintLeft = [
+  {
+    svgIcon: <HeatIcon />,
+    heading: "Heat Rejection",
+    Para: "It significantly reflect the solar heat from entering the car. The interior cools down quicker, and reduce fuel usage while using the AC of your",
+  },
+  {
+    svgIcon: <EyesIcon />,
+    heading: "Better apperance",
+    Para: "Looks better than the original clear glass, especially with subtle metallic shine",
+  },
+  {
+    svgIcon: <AntifglareIcon />,
+    heading: "Anti-Glare",
+    Para: "It could help reduce harsh glare from the sun shines, which can lead to drowsy and eyestrain.",
+  },
+];
+export const MetallizedWindowTintRight = [
+  {
+    svgIcon: <UvProtectIcon />,
+    heading: "UV protection",
+    Para: "It blocks 99% of the UV rays, which protect your skin and eyes, and protect the interior such as seats and dashboard from sun fading and deterioration.",
+  },
+  {
+    svgIcon: <PrivacyIcon />,
+    heading: "More Privacy",
+    Para: "Added privacy that helps to conceal things inside the car.",
+  },
+];
+export const CeramicSafetyWindowTintLeft = [
+  {
+    svgIcon: <SafetyProtection />,
+    heading: "Safety Protection",
+    Para: "It provides exceptional blast and impact-resistant capabilities to keep you safe, similar as the protection that legacy safety and security film does to the architectural glass.",
+  },
+  {
+    svgIcon: <HeatIcon />,
+    heading: "Heat Rejection",
+    Para: "Similar as legacy ceramic window tint, it blocks up to 98% of infrared solar heat from entering the car.",
+  },
+  {
+    svgIcon: <PrivacyIcon />,
+    heading: "More Privacy",
+    Para: "Added privacy that helps to conceal things inside the car.",
+  },
+  {
+    svgIcon: <AntifglareIcon />,
+    heading: "Anti-Glare",
+    Para: "It could help reduce harsh glare from the sun shines, which can lead to drowsy and eyestrain.",
+  },
+];
+export const CeramicSafetyWindowTintRight = [
+  {
+    svgIcon: <HeatShrinkage />,
+    heading: "Heat Shrinkage",
+    Para: "For the thicker film such as 8mil thickness, it has perfect heat shrinkage that makes the installation easier.",
+  },
+  {
+    svgIcon: <UvProtectIcon />,
+    heading: "UV protection",
+    Para: "It blocks 99% of the UV rays.",
+  },
+  {
+    svgIcon: <EyesIcon />,
+    heading: "Ultra-clarity",
+    Para: "With extremely low haze especially for the window shield, it helps providingultra-clear view no matter at daytime or at night.",
+  },
+  {
+    svgIcon: <GpsIcon />,
+    heading: "Not blocking cell phone or GPS signals",
+    Para: "The tint does not blocking any radio, cellular,gps or bluetooth signals.",
+  },
+];
+
+export const AutomotiveWindowTint = [
+  {
+    protectioncardimg: AutomotiveCardImg1,
+    heading: "Nano-Ceramic Window Tint",
+    para: "With the latest advances in nano technology, Unisun® ceramic auto tint is able to provide unparalleled clarity and exceptional heat rejection.",
+    CardHeight: "windowtint_card",
+    btn: "Read more",
+  },
+  {
+    protectioncardimg: AutomotiveCardImg2,
+    heading: "Nano-Carbon Window Tint",
+    para: "UNISUN® Nano-carbon auto tint is made using color-stable nano-carbon, which could last a lifetime and block infrared solar heat.",
+    CardHeight: "windowtint_card",
+    btn: "Read more",
+  },
+  {
+    protectioncardimg: AutomotiveCardImg3,
+    heading: "Premium Dyed Window Tint",
+    para: "The dyed window tint makes your car look cool, and make you feel comfortable with less glare and UV protection, and the color could last forever without any fading",
+    CardHeight: "windowtint_card",
+    btn: "Read more",
+  },
+  {
+    protectioncardimg: AutomotiveCardImg4,
+    heading: "Air Blue Window Tint",
+    para: "UNISUN® air blue window tint is ceramic tint essentially with very light color, providing excellent heat rejection and UV protection. It’s suitable for the window shield.",
+    CardHeight: "windowtint_card",
+    btn: "Read more",
+  },
+  {
+    protectioncardimg: AutomotiveCardImg5,
+    heading: "Metallized Window Tint",
+    para: "With metalized layer, the metalized window tint like UNISUN HP seriesis able to reflect the solar heatand add more privacy.",
+    btn: "Read more",
+  },
+  {
+    protectioncardimg: AutomotiveCardImg6,
+    heading: "Ceramic Safety Window Tint",
+    para: "UNISUN® ceramic safety window tint is a combination of ceramic tint and the clear safety window tint, with perfect heat shrinkage for easy installation.",
+    CardHeight: "windowtint_card",
+    btn: "Read more",
   },
 ];
