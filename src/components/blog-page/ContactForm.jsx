@@ -146,6 +146,7 @@ const ContactForm = () => {
                       onChange={inputcontrol}
                       value={inputData.FirstName}
                       type="text"
+                      required
                     />
                   </div>
                   <div className="w-100">
@@ -158,6 +159,7 @@ const ContactForm = () => {
                       onChange={inputcontrol}
                       value={inputData.LastName}
                       type="text"
+                      required
                     />
                   </div>
                 </div>
@@ -172,6 +174,7 @@ const ContactForm = () => {
                       onChange={inputcontrol}
                       value={inputData.Email}
                       type="Email"
+                      required
                     />
                   </div>
                   <div className="w-100">
@@ -197,6 +200,7 @@ const ContactForm = () => {
                     onChange={inputcontrol}
                     value={inputData.Address}
                     type="text"
+                    required
                   />
                 </div>
                 <div className="d-flex justify-content-between gap-sm-4 gap-1 flex-column flex-sm-row pt-sm-3 mt-1">
@@ -208,6 +212,7 @@ const ContactForm = () => {
                       onChange={inputcontrol}
                       value={inputData.City}
                       type="text"
+                      required
                     />
                   </div>
                   <div className="w-100">
@@ -218,6 +223,7 @@ const ContactForm = () => {
                       onChange={inputcontrol}
                       value={inputData.State}
                       type="text"
+                      required
                     />
                   </div>
                 </div>
@@ -229,6 +235,7 @@ const ContactForm = () => {
                     onChange={inputcontrol}
                     value={inputData.Countary}
                     type="text"
+                    required
                   />
                 </div>
                 <div>
@@ -264,6 +271,7 @@ const ContactForm = () => {
                   onChange={inputcontrol}
                   value={inputData.Message}
                   name="Message"
+                  required
                 ></textarea>
                 <div className="d-flex align-items-center py-sm-4 my-2">
                   <input type="checkbox" />
