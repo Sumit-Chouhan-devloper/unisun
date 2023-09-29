@@ -119,7 +119,7 @@ const ContactForm = () => {
               </div>
             </Col>
             <Col lg={7} xl={6}>
-              <form className="contact_form bg_light_blue">
+              <form className="contact_form bg_light_blue"  onSubmit={FSubmit}>
                 <p className="fw-normal clr_black font_sm">Are you a</p>
                 <div className="d-flex align-items-center">
                   <button className="ff-gilroy-medium dealer_btn transition_03 bg_blue me-2 font_md fw-medium color_white">
@@ -132,9 +132,9 @@ const ContactForm = () => {
                 <p className="fw-normal color_red font_xs my-3 py-1">
                   Required Fields*
                 </p>
-                <form
+                <div
                   className="d-flex justify-content-between gap-sm-4 gap-1 flex-column flex-sm-row"
-                  onSubmit={FSubmit}
+                
                 >
                   <div className="w-100">
                     <p className="fw-normal clr_black font_sm mb-2">
@@ -160,7 +160,7 @@ const ContactForm = () => {
                       type="text"
                     />
                   </div>
-                </form>
+                </div>
                 <div className="d-flex justify-content-between gap-sm-4 gap-1 pt-sm-3 mt-1 flex-column flex-sm-row pt-sm-3 mt-1">
                   <div className="w-100">
                     <p className="fw-normal clr_black font_sm mb-2">

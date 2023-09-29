@@ -36,7 +36,7 @@
 }
 
 .dealer_btn {
-  padding: 8px 15px;
+  padding: 6px 14px;
   border: 1px solid transparent;
   border-radius: 44px;
 }
@@ -47,7 +47,7 @@
   background-color: transparent;
 }
 .consumer_btn {
-  padding: 8px 15px;
+  padding: 6px 14px;
   color: rgba(0, 0, 0, 0.3);
   border-radius: 44px;
   border: 0.863px solid rgba(0, 0, 0, 0.3);
