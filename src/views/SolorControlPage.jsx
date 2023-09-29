@@ -1,17 +1,19 @@
-import React from 'react'
-import Header from '../components/common/Header'
-import Subscription from '../components/common/Subscription'
-import Footer from '../components/common/Footer'
-import HeroCommon from '../components/common/HeroCommon'
+import React from "react";
+import Header from "../components/common/Header";
+import Subscription from "../components/common/Subscription";
+import Footer from "../components/common/Footer";
+import HeroCommon from "../components/common/HeroCommon";
 
 const SolorControlPage = () => {
   return (
     <div>
-            <Header btnText="Shop" />
-         <HeroCommon   heading="Solar Control Window Films"
-          herocommonbg="WindowTint-bg-img" />
-        <Subscription/>
-        <Footer
+      <Header btnText="Shop" />
+      <HeroCommon
+        heading="Solar Control Window Films"
+        herocommonbg="WindowTint-bg-img"
+      />
+      <Subscription />
+      <Footer
         tab1="Company"
         tab2="Faqs"
         tab3="Help"
@@ -24,7 +26,7 @@ const SolorControlPage = () => {
         commercialpage2="Product Care"
       />
     </div>
-  )
-}
+  );
+};
 
-export default SolorControlPage
+export default SolorControlPage;

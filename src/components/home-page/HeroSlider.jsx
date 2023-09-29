@@ -119,26 +119,6 @@ const HeroSlider = () => {
               </div>
             </div>
           </div>
-          <div className="hero_section_bg_img4 hero_slider">
-            <div className="container custom_container">
-              <div className="row flex-column justify-content-end align-items-center hero_content py-4 py-sm-5">
-                <div className="col-12 color_white d-flex align-items-lg-end justify-content-between flex-column flex-lg-row">
-                  <div className="z-3 position-relative">
-                    <h2 className="fw-bold">Unisun Antibacterial Films</h2>
-                    <p className="fw-normal mb-0">
-                      Provide constant protection for the surfaces of your
-                      devices, appliance and countertop
-                    </p>
-                  </div>
-                  <div className="learn_more_link mt-3 mt-lg-0">
-                    <button className="common_btn fw-semibold font_xs h-100 d-flex align-items-center justify-content-center color-white">
-                      Learn More
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </Slider>
       </div>
     </div>

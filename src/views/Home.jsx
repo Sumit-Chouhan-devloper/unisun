@@ -5,12 +5,14 @@ import Footer from "../components/common/Footer";
 import HeroSlider from "../components/home-page/HeroSlider";
 import LatestBlogSlider from "../components/home-page/LatestBlogSlider";
 import WhyChoosingUnisun from "../components/home-page/WhyChoosingUnisun";
+import Products from "../components/home-page/Products";
 
 const Home = () => {
   return (
     <div>
       <HeroSlider />
       <WhyChoosingUnisun />
+      <Products />
       <LatestBlogSlider heading="Featured" />
       <Subscription />
       <Footer
