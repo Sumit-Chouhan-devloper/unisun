@@ -8,6 +8,9 @@
 .contact_form {
   padding: 16px;
 }
+.contact_form a:hover {
+  font-weight: 700 !important;
+}
 .contact_form input {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: var(--white);
@@ -71,13 +74,13 @@
   background-position: center;
 }
 /* customised-soluction bg */
-.Customised-soluction-bg{
+.Customised-soluction-bg {
   background-image: url(./assets/images/webp/customised-solution-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.sustainability-bg{
+.sustainability-bg {
   background-image: url(./assets/images/webp/sustainability-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,7 +89,7 @@
 
 @media (min-width: 576px) {
   .contact_form input {
-    padding: 13px 16px;
+    padding: 10px 16px;
   }
   .related_blog_img {
     height: 95px !important;
@@ -96,7 +99,7 @@
     padding: 34px;
   }
   .contact_form .form-select {
-    padding: 13px 16px 13px 16px !important;
+    padding: 10px 16px!important;
   }
   .dealer_btn {
     padding: 12px 35px;
@@ -116,7 +119,11 @@
 .blog_bottom_border {
   border-bottom: 1.5px solid #cccccc;
 }
-.clr_black{color: #000;}
+.clr_black {
+  color: #000;
+}
 
 /* greener product img */
-.greener_product_img{max-height: 747px;}
+.greener_product_img {
+  max-height: 747px;
+}

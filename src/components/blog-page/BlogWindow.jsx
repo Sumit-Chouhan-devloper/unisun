@@ -12,11 +12,11 @@ const BlogWindow = () => {
     <>
       <section className="py-5">
         <div className="container custom_container pb-md-5 mb-xl-5 position-relative">
-          <h2 className="ff-gilroy-bold fw-bold clr_black font_4xl">
+          <h2 className="ff-gilroy-bold fw-bold clr_black font_4xl pt-lg-2 mb-0">
             How is solar control window film used to
             <span className="d-lg-block"> save energy.</span>
           </h2>
-          <p className="fw-normal font_sm clr_black opacity_07 pt-3 mb-4 pb-2">
+          <p className="fw-normal font_sm clr_black opacity_07 pt-3 mb-4 pb-3">
             Published: 11 December, 2023
           </p>
           <div className="row justify-content-between">
@@ -108,7 +108,7 @@ const BlogWindow = () => {
             </Col>
             <Col className="ps-xl-5 px-lg-3" lg={4}>
               <div className="position-sticky top_30">
-                <h4 className="ff-gilroy-semibold fw-semibold font_lg color_blue pb-1 mb-sm-3 mb-0 pt-4 pt-lg-0">
+                <h4 className="ff-gilroy-semibold fw-semibold font_lg color_blue pb-1 mb-sm-3 mb-0 pt-4 mt-sm-4 mt-lg-0 pt-lg-0">
                   Related Blogs
                 </h4>
                 <div className="d-flex align-items-center py-sm-4 py-3 blog_bottom_border">
