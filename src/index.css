@@ -19,6 +19,7 @@ code {
   background-position: center;
 }
 
+/* props image */
 .TermsHero-bg-img {
   background-image: url("../src/assets/images/webp/terms_hero-bg.webp");
   background-position: center;
@@ -58,4 +59,24 @@ code {
 
 .feature_detail:hover svg path:nth-child(2) {
   fill: white !important;
+}
+
+.line_bottom {
+  max-width: 317px;
+  padding: 10px 0px;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid var(--Blue, #2E3192);
+}
+
+@media (min-width:1200px) {
+  .width-80{
+    max-width: 80%;
+  }
+}
+
+@media (min-width:1400px) {
+  .width-75{
+    max-width: 70%;
+  }
 }

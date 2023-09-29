@@ -3,13 +3,16 @@ import Header from "../components/common/Header";
 import Footer from "../components/common/Footer";
 import HeroCommon from "../components/common/HeroCommon";
 import Subscription from '../components/common/Subscription';
+import WarrantiesText from '../components/ProductWarranties/WarrantiesText';
 
 const ProductWarranties = () => {
   return (
     <div>
           <Header btnText="Shop" removeBtn="d-none" />
         <HeroCommon heading="product warranties" herocommonbg="WindowTint-bg-img" />
+        <WarrantiesText/>
         <Subscription/>
+       
         <Footer
           tab1="Company"
           tab2="Faqs"
